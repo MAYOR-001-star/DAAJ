@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import About from './pages/About DAAJ'
 import Error from './pages/Error'
 import Home from './pages/Home';
-import Appliances from './sub-pages/Appliances';
+import Commercial from './sub-pages/Commercial';
 import Gadgets from './sub-pages/Gadgets';
 import Support from './sub-pages/Support';
 import Packages from './pages/Packages';
@@ -25,8 +25,8 @@ function App() {
           <Route path="/about DAAJ" element={<About DAAJ />} />
           <Route path="/our-smart-home-packages" element={<Packages />} />
           <Route path="/services/smart-home" element={<SmartHome/>} />
-          <Route path="/services/smart-home-gadgets" element={<Gadgets />} />
-          <Route path="/services/web/mobile-appliances" element={<Appliances />} />
+          <Route path="/services/sales-of-home-gadgets" element={<Gadgets />} />
+          <Route path="/services/commercial solutions" element={<Commercial />} />
           <Route path="/services/maintainance-and-support" element={<Support />} />
           <Route path="/why-choose-us" element={<Reason />} />
           <Route path="/blog" element={<Blog />} />

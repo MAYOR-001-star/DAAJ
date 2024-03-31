@@ -67,13 +67,13 @@ const Sidebar = ({ sidebar, setSidebar }) => {
                   <NavLink to='/services/smart-home' onClick={toggleSidebar}><span className='text-black'>smart home</span></NavLink>
                 </li>
                 <li className='capitalize py-2 hover:bg-blue-700 px-2 rounded-md'>
-                  <NavLink to='/services/smart-home-gadgets' onClick={toggleSidebar}><span className='text-black'>smart home gadgets</span></NavLink>
+                  <NavLink to='/services/sales-of-home-gadgets' onClick={toggleSidebar}><span className='text-black'>sales of home gadgets and accessories</span></NavLink>
                 </li>
                 <li className='capitalize py-2 hover:bg-blue-700 px-2 rounded-md'>
-                  <NavLink to='/services/web-mobile-appliances' onClick={toggleSidebar}><span className='text-black'>web/mobile appliances</span></NavLink>
+                  <NavLink to='/services/commercial solutions' onClick={toggleSidebar}><span className='text-black'>commercial solutions</span></NavLink>
                 </li>
                 <li className='capitalize py-2 hover:bg-blue-700 px-2 rounded-md'>
-                  <NavLink to='/services/maintenance-and-support' onClick={toggleSidebar}><span className='text-black'>maintenance and support</span></NavLink>
+                  <NavLink to='/services/maintainance-and-support' onClick={toggleSidebar}><span className='text-black'>maintainance and support on technical services</span></NavLink>
                 </li>
               </ul>
             )}

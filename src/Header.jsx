@@ -56,18 +56,18 @@ const Header = () => {
             <span className='text-black'>solutions & services</span>
           </div><span className='pl-1 pr-2'>{dropdown1? <FaChevronUp/> : <FaChevronDown/>}</span>
           {dropdown1 && (
-            <ul className='bg-slate-100 position: absolute top-12 left-24 md:left-48 z-3 w-64 p-2 rounded-md shadow-custom2'>
+            <ul className='bg-slate-100 position: absolute top-12 left-24 md:left-8 z-3 w-64 p-2 rounded-md shadow-custom2'>
               <li className='capitalize py-2 hover:bg-blue-700 px-2 rounded-md'>
                 <NavLink to='/services/smart-home'><span className='text-black'>smart home</span></NavLink>
               </li>
               <li className='capitalize py-2 hover:bg-blue-700 px-2 rounded-md'>
-                <NavLink to='/services/smart-home-gadgets'><span className='text-black'>smart home gadgets</span></NavLink>
+                <NavLink to='/services/commercial solutions'><span className='text-black'>commercial solutions</span></NavLink>
               </li>
               <li className='capitalize py-2 hover:bg-blue-700 px-2 rounded-md'>
-                <NavLink to='/services/web/mobile-appliances'><span className='text-black'>web/mobile appliances</span></NavLink>
+                <NavLink to='/services/sales-of-home-gadgets'><span className='text-black'>sales of home gadgets and accessories</span></NavLink>
               </li>
               <li className='capitalize py-2 hover:bg-blue-700 px-2 rounded-md'>
-                <NavLink to='/services/maintainance-and-support'><span className='text-black'>maintainance and support</span></NavLink>
+                <NavLink to='/services/maintainance-and-support'><span className='text-black'>maintainance and support on technical services</span></NavLink>
               </li>
             </ul>
           )}
