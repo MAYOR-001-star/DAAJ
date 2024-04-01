@@ -29,7 +29,7 @@ const Home = () => {
           <div className='bg-blue-700 p-8 border-2 rounded-lg lg:h-72 lg:w-60 mb-8 md:w-44'>
             <img src='/Images/blob.png' alt='commercials' className='border-2 rounded-md'/>
             <p className='mt-8 text-center capitalize text-sm'>commercial solutions</p>
-            <NavLink to='services/smart home gadgets'className='capitalize text-center w-full border-2 p-2 rounded-md hover:bg-slate-100 mt-10 block'>learn more</NavLink>
+            <NavLink to='services/smart home gadgets'className='capitalize text-center w-full border-2 p-2 rounded-md hover:bg-slate-100 mt-8 block'>learn more</NavLink>
           </div>
           <div className='bg-blue-700 p-8 border-2 rounded-lg lg:h-72 lg:w-60 mb-8 md:w-44'>
             <img src='/Images/Gadgets.png' alt='Devices' className='border-2 rounded-md'/>
