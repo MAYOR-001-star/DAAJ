@@ -3,7 +3,7 @@ import React from 'react'
 const Gadgets = () => {
   return (
     <div>
-        <h3>gadgets page</h3>
+      <h3>Gadget page</h3>
     </div>
   )
 }

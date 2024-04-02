@@ -4,7 +4,7 @@ import Footer from '../../Footer'
 
 const Commercial = () => {
   useEffect(()=>{
-    document.title = 'Commercial Solutions - DAAJ Technologies Limited'
+    document.title = 'Maintenance and Support on Technical Services. - DAAJ Technologies Limited - DAAJ Technologies Limited'
   },[])
   return (
     <div>
