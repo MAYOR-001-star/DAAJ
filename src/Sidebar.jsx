@@ -62,7 +62,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
               <FaTools className='text-black'/><span className='ml-4 mr-4 capitalize text-black'>solutions & services</span>{dropdown1? <FaChevronUp/> : <FaChevronDown/>}
             </div>
             {dropdown1 && (
-              <ul className='bg-slate-100 absolute top-12 left-24 md:left-48 z-10 w-64 p-2 rounded-md shadow-custom2'>
+              <ul className='bg-slate-100 absolute top-12 left-24 md:left-48 z-10 w-96 p-2 rounded-md shadow-custom2'>
                 <li className='capitalize py-2 hover:bg-blue-700 px-2 rounded-md'>
                   <NavLink to='/services/smart-home' onClick={toggleSidebar}><span className='text-black'>smart home</span></NavLink>
                 </li>

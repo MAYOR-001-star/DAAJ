@@ -18,9 +18,8 @@ const Support = () => {
           At DAAJ Technologies Limited, our commitment doesn't end with installation. We provide ongoing support and maintenance services to ensure that your smart home operates smoothly and efficiently. Our team is available to address any issues, answer your questions, and provide timely assistance whenever you need it.
         </p>
         <p className='bg-white hover:bg-blue-700 text-center py-2 border-blue-700 border-2 w-[10rem] mx-auto rounded-md'>
-          <NavLink to='#'><span className='uppercase text-blue-700 hover:text-white'>get in touch</span></NavLink>
+          <NavLink to='#'><span className='uppercase text-black'>get in touch</span></NavLink>
         </p>
-        
       </div>
       <Footer/>
     </div>
