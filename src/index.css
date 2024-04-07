@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.active{
+
+
+/*.active{
     color: #1D4ED8;
-}
+}*/
 @media only screen and (min-width: 767px) {
     .responsive {
         max-width: 34rem;
@@ -125,4 +127,25 @@
   border-left: none;
   border-right: none;
   padding: 1rem;
+}
+
+.title{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  column-gap: 5px;
+}
+.title::before, .title::after{
+  content: '';
+  height: 2px;
+  background-color: #fff;
+  display: block;
+}
+
+.form-design{
+  border-radius: 5px;
+  outline: none;
+  padding: 0.5rem 0.5rem;
+  margin: 1rem;
+  width: 15rem;
 }

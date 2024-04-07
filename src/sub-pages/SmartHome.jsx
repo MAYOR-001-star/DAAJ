@@ -34,7 +34,7 @@ const SmartHome = () => {
           <p className='text-center'>Homeowners remotely control various devices and systems, such as lighting, thermostats, and security cameras, with the touch of a button or a voice command.</p>
         </div>
         <div className='p-2 mb-4'>
-          <img src='/Images/exclusive designs.webp' className='w-[23rem] h-[20rem] md:h-[7.5rem] lg:h-[12rem] md:w-[15rem] rounded'/>
+          <img src='/Images/exclusive designs.webp' className='w-[23rem] h-[20rem] md:h-[7.5rem] lg:h-[12rem] md:w-[20rem] rounded'/>
           <h1 className='text-center py-4 font-bold'>Exclusive Designs</h1>
           <p className='text-center'>Blending technology with aesthetics,offering sleek and minimalist designs that complement any interior decor while providing advanced functionality.</p>
         </div>
