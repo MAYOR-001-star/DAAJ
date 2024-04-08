@@ -47,7 +47,7 @@ const Header = () => {
           </NavLink>
         </li>
         <li className='text-base hover:bg-blue-700 rounded-md active:bg-blue-700 mr-4 flex justify-center items-center'>
-          <NavLink to='/about DAAJ' className='capitalize px-4 py-2'>
+          <NavLink to='/about' className='capitalize px-4 py-2'>
             <span className='text-black'>about DAAJ</span>
           </NavLink>
         </li>

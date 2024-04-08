@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Sidebar from './Sidebar';
-import About from './pages/About DAAJ'
+import About from './pages/About'
 import Error from './pages/Error'
 import Home from './pages/Home';
 import Commercial from './sub-pages/Commercial';
@@ -21,7 +21,7 @@ function App() {
         <Sidebar setSidebar={setSidebar} sidebar={sidebar}/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about DAAJ" element={<About DAAJ />} />
+          <Route path="/about" element={<About />} />
           <Route path="/our-smart-home-packages" element={<Packages />} />
           <Route path="/services/smart-home" element={<SmartHome/>} />
           <Route path="/services/sales-of-home-gadgets" element={<Gadgets />} />

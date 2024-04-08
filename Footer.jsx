@@ -21,9 +21,11 @@ const Footer = () => {
         <div className='grid grid-rows-1 justify-center mb-8'>
           <h1 className='capitalize mb-4 text-xl text-blue-700'>quick links</h1>
           <NavLink to='/' className='capitalize mb-4 text-blue-700'>home</NavLink>
-          <NavLink to='/about DAAJ' className='capitalize mb-4 text-blue-700'>about DAAJ</NavLink>
+          <NavLink to='/about' className='capitalize mb-4 text-blue-700'>about DAAJ</NavLink>
           <NavLink to='#' className='mb-4 text-blue-700 uppercase'>FAQ</NavLink>
-          <NavLink to='/contact' className='mb-4 bg-blue-700 text-white p-2 text-center capitalize rounded-md'>contact</NavLink>
+          <NavLink to='/contact'>
+            <span className=' bg-blue-700 text-white mb-4 p-2 text-center capitalize rounded-md'>contact</span>
+          </NavLink>
         </div>
         <div className='grid grid-rows-1 justify-center items-center'>
           <h1 className='capitalize mb-4 spacey text-xl text-blue-700'>our services</h1>
