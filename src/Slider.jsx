@@ -1,6 +1,9 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
+import {motion} from 'framer-motion'
+
+
 
 const Slide = ({ item }) => {
   const styles = {
@@ -11,7 +14,9 @@ const Slide = ({ item }) => {
   return (
     <div className="inline-block h-full relative w-full" style={styles}>
       <div className="flex flex-column items-center justify-center absolute top-2/4 left-2/4 transform -translate-x-1/2 -translate-y-1/2">
-        <h1 className="text-blue-700 text-xl md:text-5xl bg-white p-4 opacity-75">{item.title}</h1>
+        <motion.h1 className="text-blue-700 text-xl md:text-5xl bg-white p-4 opacity-75" initial={{x:-250}} animate={{x:0}} transition={{delay:0.5, duration:2}}>
+          {item.title}
+        </motion.h1>
       </div>
     </div>
   );

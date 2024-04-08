@@ -4,9 +4,9 @@
 
 
 
-/*.active{
+.active{
     color: #1D4ED8;
-}*/
+}
 @media only screen and (min-width: 767px) {
     .responsive {
         max-width: 34rem;

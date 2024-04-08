@@ -17,7 +17,6 @@ function App() {
   const [sidebar, setSidebar] = useState(true);
   return (
     <>
-      
       <Router>
         <Sidebar setSidebar={setSidebar} sidebar={sidebar}/>
         <Routes>
