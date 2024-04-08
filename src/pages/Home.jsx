@@ -62,22 +62,22 @@ const Home = () => {
           <motion.div className='bg-blue-700 p-8 border-2 rounded-lg lg:h-72 lg:w-60 mb-8 md:w-44' initial={{x:-250}} animate={{x:0}} transition={{delay:0.5, duration:2}}>
             <img src='/Images/homePics.webp' alt='home solutions' className='border-2 rounded-md'/>
             <p className='mt-8 text-center capitalize text-sm'>smart home solutions</p>
-            <NavLink to='services/smart home consultancy'className='capitalize text-center w-full border-2 p-2 rounded-md hover:bg-slate-100 mt-4 block'>learn more</NavLink>
+            <NavLink to='/services/smart-home'className='capitalize text-center w-full border-2 p-2 rounded-md hover:bg-slate-100 mt-4 block'>learn more</NavLink>
           </motion.div>
           <motion.div className='bg-blue-700 p-8 border-2 rounded-lg lg:h-72 lg:w-60 mb-8 md:w-44' initial={{x:300}} animate={{x:0}} transition={{delay:1, duration:2}}>
             <img src='/Images/blob.png' alt='commercials' className='border-2 rounded-md'/>
             <p className='mt-8 text-center capitalize text-sm'>commercial solutions</p>
-            <NavLink to='services/smart home gadgets'className='capitalize text-center w-full border-2 p-2 rounded-md hover:bg-slate-100 mt-8 block'>learn more</NavLink>
+            <NavLink to='/services/commercial solutions'className='capitalize text-center w-full border-2 p-2 rounded-md hover:bg-slate-100 mt-8 block'>learn more</NavLink>
           </motion.div>
           <motion.div className='bg-blue-700 p-8 border-2 rounded-lg lg:h-72 lg:w-60 mb-8 md:w-44' initial={{x:-350}} animate={{x:0}} transition={{delay:1.5, duration:2}}>
             <img src='/Images/Gadgets.png' alt='Devices' className='border-2 rounded-md'/>
             <p className='mt-2 text-center capitalize text-sm'>sales of home gadgets and accessories</p>
-            <NavLink to='services/web/mobile appliances'className='capitalize text-center w-full border-2 p-2 rounded-md hover:bg-slate-100 mt-4 block'>learn more</NavLink>
+            <NavLink to='/services/sales-of-home-gadgets'className='capitalize text-center w-full border-2 p-2 rounded-md hover:bg-slate-100 mt-4 block'>learn more</NavLink>
           </motion.div>
           <motion.div className='bg-blue-700 p-8 border-2 rounded-lg lg:h-72 lg:w-60 mb-8 md:w-44' initial={{x:-400}} animate={{x:0}} transition={{delay:1.5, duration:2}}>
             <img src='/Images/Engineer.webp' alt='DAAJ engineer' className='border-2 rounded-md'/>
             <p className='mt-2 text-center capitalize text-sm'>maintenance and support on technical services</p>
-            <NavLink to='services/maintainance and support'className='capitalize text-center w-full border-2 p-2 rounded-md hover:bg-slate-100 mt-4 block'>learn more</NavLink>
+            <NavLink to='/services/maintainance-and-support'className='capitalize text-center w-full border-2 p-2 rounded-md hover:bg-slate-100 mt-4 block'>learn more</NavLink>
           </motion.div>
         </div>
       </div>

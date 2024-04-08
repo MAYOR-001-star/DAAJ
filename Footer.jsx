@@ -27,10 +27,10 @@ const Footer = () => {
         </div>
         <div className='grid grid-rows-1 justify-center items-center'>
           <h1 className='capitalize mb-4 spacey text-xl text-blue-700'>our services</h1>
-            <NavLink to='services/smart home consultancy' className='capitalize text-sm spacey text-blue-700'>smart home solutions</NavLink>
-            <NavLink to='services/smart home gadgets' className='capitalize text-sm spacey text-blue-700'>commercial solutions</NavLink>
-            <NavLink to='services/web/mobile appliances' className='capitalize text-sm spacey text-blue-700'>sales of home gadgets and accessories</NavLink>
-            <NavLink to='services/maintainance and support' className='capitalize text-sm spacey text-blue-700'>maintenance and support on technical services</NavLink>
+            <NavLink to='/services/smart-home' className='capitalize text-sm spacey text-blue-700'>smart home solutions</NavLink>
+            <NavLink to='/services/sales-of-home-gadgets' className='capitalize text-sm spacey text-blue-700'>commercial solutions</NavLink>
+            <NavLink to='/services/commercial solutions' className='capitalize text-sm spacey text-blue-700'>sales of home gadgets and accessories</NavLink>
+            <NavLink to='/services/maintainance-and-support' className='capitalize text-sm spacey text-blue-700'>maintenance and support on technical services</NavLink>
         </div>
       </div>
       <div className='flex justify-between items-center spaceey'>
