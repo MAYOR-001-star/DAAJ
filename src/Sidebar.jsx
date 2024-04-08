@@ -53,7 +53,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
             </NavLink>
           </li>
           <li className='text-base w-64 px-4 py-3 hover:bg-blue-700 rounded-md'>
-            <NavLink to='/about DAAJ' className='flex items-center' onClick={toggleSidebar}>
+            <NavLink to='/about' className='flex items-center' onClick={toggleSidebar}>
               <FaUserFriends className='text-black'/><span className='ml-4 capitalize text-black' text-black>about DAAJ</span>
             </NavLink>
           </li>
